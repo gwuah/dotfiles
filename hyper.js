@@ -1,16 +1,15 @@
-
 module.exports = {
   config: {
-
     updateChannel: "stable",
     // default font size in pixels for all tabs
     fontSize: 16,
     // font family with optional fallbacks
-    fontFamily:'Fira Code Light, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily:
+      'Fira Code Light, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
     fontWeight: "normal",
     fontWeightBold: "bold",
     cursorColor: "#f79400",
-    cursorAccentColor: "#f79400",█
+    cursorAccentColor: "#f79400",
     cursorShape: "BEAM",
     cursorBlink: true,
     foregroundColor: "#fff",
