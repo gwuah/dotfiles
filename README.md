@@ -1,5 +1,5 @@
 # Personal config files 🔥 🚀
 
-- Unordered sub-list.
+- Hyper.
 - Visual Studio Code.
 - OH my Zsh.
