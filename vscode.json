@@ -1,0 +1,45 @@
+{
+  "window.zoomLevel": 0,
+  "workbench.colorCustomizations": {},
+  "materialTheme.accentPrevious": "",
+  "workbench.colorTheme": "Atom One Dark",
+  "materialTheme.fixIconsRunning": false,
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "editor.fontFamily":
+    "'Inconsolata Medium' ,'monofur Regular' , 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 10,
+  "editor.fontWeight": "normal",
+  "files.autoSave": "afterDelay",
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "prettier.eslintIntegration": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "sync.gist": "bd1fcb008f4c3ac1b0d3068aff3aa25f",
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastUpload": "2018-06-24T12:12:11.813Z",
+  "sync.lastDownload": "",
+  "sync.forceDownload": false,
+  "editor.tabCompletion": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "plaintext": "jade"
+  }
+}
