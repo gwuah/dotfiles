@@ -41,6 +41,8 @@ modules=(
     nodemon
     serve
     webpack
+    gulp-cli
+    gulp
 )
 
 # Installing each modules

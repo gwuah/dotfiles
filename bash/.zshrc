@@ -1,7 +1,11 @@
 
-export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="oxide"
 
+export ZSH=$HOME/.oh-my-zsh
+
+# oh-my-zsh theme
+ZSH_THEME="pygmalion"
+
+# plugins
 plugins=(
   git,
   node,
@@ -30,19 +34,22 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
+# git alias
+alias gp='git push'
+alias ga='git add .'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gcl='git clone'
+alias gs='git status'
 
-export PATH="$HOME/usr/local/bin:$PATH"
+# node alias
+alias rnm='rm -rf */node_modules'
+alias ya='yarn add'
+alias yag="yarn global add"
 
-export PATH="$PATH:/usr/local/go/bin"
-
-export PATH="$PATH:/home/yato-god/.go/bin"
-
-alias sublime=/opt/sublime_text/sublime_text
-alias ccss='sass -t compressed'
-alias stark='stark.py'
-alias stark-css='stark-css.py'
-alias python='/usr/bin/python3'
-alias code='snap run vscode'
+# directory alias
+alias images='cd ~/Desktop/Images'
+alias design='cd ~/Desktop/Design'
+alias personal='cd ~/Desktop/Personal'
