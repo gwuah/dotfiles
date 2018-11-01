@@ -50,7 +50,7 @@ yarn global add ${modules[@]}
 
 # Installing brew cask for installing apps
 echo "Installing brew cask"
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 
 # Normally used apps
 apps=(
@@ -59,6 +59,7 @@ apps=(
     slack
     spotify
     vscode
+    vlc
 )
 
 # Installing app using cask into application folder
@@ -82,3 +83,7 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 # Setting oh-my-zsh as default shell
 chsh -s /bin/zsh
+
+# Get current .zshrc profile 
+echo "Getting Current oh-my-zsh profile"
+wget 
