@@ -2,13 +2,11 @@
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {},
   "materialTheme.accentPrevious": "",
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Material Theme Ocean",
   "materialTheme.fixIconsRunning": false,
   "workbench.iconTheme": "eq-material-theme-icons-ocean",
-  "editor.fontFamily":
-    "'Inconsolata Medium' ,'monofur Regular' , 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 10,
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontSize": 11,
   "editor.fontWeight": "normal",
   "files.autoSave": "afterDelay",
   "css.validate": false,
@@ -27,7 +25,7 @@
   "sync.syncExtensions": true,
   "sync.autoDownload": false,
   "sync.autoUpload": false,
-  "sync.lastUpload": "2018-06-24T12:12:11.813Z",
+  "sync.lastUpload": "2018-07-03T13:23:08.398Z",
   "sync.lastDownload": "",
   "sync.forceDownload": false,
   "editor.tabCompletion": true,
@@ -41,5 +39,15 @@
     "javascript": "javascriptreact",
     "vue-html": "html",
     "plaintext": "jade"
-  }
+  },
+  "gitlens.advanced.fileHistoryFollowsRenames": false,
+  "gitlens.keymap": "alternate",
+  "editor.minimap.enabled": true,
+  "workbench.activityBar.visible": true,
+  "editor.renderWhitespace": "all",
+  "terminal.integrated.rendererType": "dom",
+  "explorer.confirmDelete": false,
+  "breadcrumbs.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontLigatures": true
 }
