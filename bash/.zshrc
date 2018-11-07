@@ -53,3 +53,4 @@ alias yag="yarn global add"
 alias images='cd ~/Desktop/Images'
 alias design='cd ~/Desktop/Design'
 alias personal='cd ~/Desktop/Personal'
+alias gitignore='touch .gitignore'
