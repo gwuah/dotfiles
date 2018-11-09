@@ -8,4 +8,4 @@ chsh -s /bin/zsh
 # Get current .zshrc profile
 echo "Getting Current oh-my-zsh profile"
 rm -r ~/.zshrc
-wget https://github.com/Casprine/dotfiles/blob/master/bash/.zshrc ~/
+wget https://github.com/gwuah/dotfiles/blob/master/bash/.zshrc ~/

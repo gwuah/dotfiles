@@ -1,7 +1,5 @@
-# Personal config files 🔥 🚀
+# mY dOt FiLes
 
-- New setup
 - Bash
-- Hyper.
 - Visual Studio Code.
 - OH my Zsh.

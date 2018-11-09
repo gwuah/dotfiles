@@ -10,12 +10,7 @@ ZSH_THEME="pygmalion"
 plugins=(
   git,
   node,
-  jekyll,
-  sass,
-  gulp,
   ruby,
-  docusaurus-init,
-  done,
   nvm,
   ngrok,
   code,
@@ -29,8 +24,6 @@ plugins=(
   go,
   eslint,
   now,
-  firebase,
-  electron-builder
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -52,9 +45,6 @@ alias ya='yarn add'
 alias yag="yarn global add"
 
 # directory alias
-alias images='cd ~/Desktop/Images'
-alias design='cd ~/Desktop/Design'
-alias personal='cd ~/Desktop/Personal'
 alias gitignore='touch .gitignore'
 export ZSH=$HOME/.oh-my-zsh
 
@@ -65,9 +55,6 @@ ZSH_THEME="pygmalion"
 plugins=(
   git,
   node,
-  jekyll,
-  sass,
-  gulp,
   ruby,
   docusaurus-init,
   done,
@@ -82,10 +69,7 @@ plugins=(
   curl,
   fathom,
   go,
-  eslint,
-  now,
-  firebase,
-  electron-builder
+  now
 )
 
 source $ZSH/oh-my-zsh.sh
